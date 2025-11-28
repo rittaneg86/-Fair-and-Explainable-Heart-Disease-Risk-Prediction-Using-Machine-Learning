@@ -21,9 +21,9 @@ Python | scikit-learn, XGBoost | pandas, numpy | AI Fairness 360 | SHAP, LIME | 
 
 
 Key Findings:
-Baseline bias was substantial: Fairness gaps ranged from EOD = 0.221 to 0.545 across algorithms, indicating systematic gender-based disparities in the imbalanced dataset (68% male, 32% female).
-Reweighting effectively reduced bias: Logistic Regression improved 69% on EOD (0.312 → 0.097) and 36% on Disparate Impact (2.600 → 1.671), while maintaining high recall (0.952) and strong ROC-AUC (0.947).
-Improvements were legitimate: SHAP/LIME analysis confirmed clinical features (thalassemia, chest pain, vessels) drove decisions for all genders, with sex showing minimal importance (4-9.6%), validating equitable learning rather than demographic masking.
+-Baseline bias was substantial: Fairness gaps ranged from EOD = 0.221 to 0.545 across algorithms, indicating systematic gender-based disparities in the imbalanced dataset (68% male, 32% female).
+-Reweighting effectively reduced bias: Logistic Regression improved 69% on EOD (0.312 → 0.097) and 36% on Disparate Impact (2.600 → 1.671), while maintaining high recall (0.952) and strong ROC-AUC (0.947).
+-Improvements were legitimate: SHAP/LIME analysis confirmed clinical features (thalassemia, chest pain, vessels) drove decisions for all genders, with sex showing minimal importance (4-9.6%), validating equitable learning rather than demographic masking.
 
 Limitations & Future Work: 
 Limitations: Small dataset (303 samples), binary gender classification only, pre-processing mitigation only, no clinical validation.
