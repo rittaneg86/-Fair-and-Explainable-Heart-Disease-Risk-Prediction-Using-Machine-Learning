@@ -105,4 +105,4 @@ Arlot, S., & Celisse, A. (2010). A Survey of Cross-Validation Procedures for Mod
 Anandkumar, A., Foster, D. P., Hsu, D., Kakade, S. M., & Liu, Y. K. (2014). A Spectral Algorithm for Latent Dirichlet Allocation.
 
 Contributors
-Rita Neg-Mfa and Jeena Weber Langstaff
+Ritta Neg-Mfa and Jeena Weber Langstaff
